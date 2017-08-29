@@ -1,9 +1,24 @@
 /* HOME PAGE */
 
+.skillsList {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  list-style-type: none;
+  list-style: none;
+  box-sizing: border-box;
+  margin-top: 7.5%;
+}
+
+#frontEnd {
+  margin-right: 20%;
+}
+
 footer {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin-top: -10%;
 }
 
 .icon {
@@ -27,5 +42,17 @@ footer {
   float: left;
   border-radius: 360px;
   margin-right: 6%;
+  margin-bottom: 5%;
+}
+
+/* PORTFOLIO PAGE */
+
+.portfolio {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+}
+
+.portfolio img {
   margin-bottom: 5%;
 }
