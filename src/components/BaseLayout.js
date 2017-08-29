@@ -7,12 +7,12 @@ class BaseLayout extends Component {
   }
   render() {
     return (
-      <div>
-        <nav>
-          <Link to="/">SplashPage</Link>
-          <Link to="/home">Home</Link>
-          <Link to="/about">About</Link>
-          <Link to="portfolio">Portfolio</Link>
+      <div className="container">
+        <nav className="nav nav-bar-dark bg-dark justify-content-end">
+          <Link className="nav-link" to="/">SplashPage</Link>
+          <Link className="nav-link" to="/home">Home</Link>
+          <Link className="nav-link" to="/about">About</Link>
+          <Link className="nav-link" to="portfolio">Portfolio</Link>
         </nav>
 
         {this.props.children}
